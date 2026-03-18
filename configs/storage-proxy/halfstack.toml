@@ -46,6 +46,7 @@ session-expire = "1d"
 # Watcher delegates root permission and do privileged tasks. This option enables the use of watcher.
 use-watcher = false
 
+advertised-url = "<http://192.168.0.3:6021>"
 
 [api.client]
 # Client-facing API

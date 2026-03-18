@@ -7,7 +7,7 @@ password = ""
 
 [agent]
 mode = "docker"
-rpc-listen-addr = { host = "127.0.0.1", port = 6001 }
+rpc-listen-addr = { host = "0.0.0.0", port = 6001 }
 # metric API service address
 service-addr = { host = "0.0.0.0", port = 6003 }
 ssl-enabled = false
@@ -31,7 +31,7 @@ cohabiting-storage-proxy = true
 port-range = [30000, 31000]
 kernel-uid = -1
 kernel-gid = -1
-bind-host = "127.0.0.1"
+bind-host = "0.0.0.0"
 sandbox-type = "docker"
 scratch-type = "hostdir"
 scratch-root = "./scratches"
